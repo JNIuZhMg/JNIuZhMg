@@ -1,0 +1,514 @@
+  /**1.顶部**/
+.topbar{
+   height: 50px;
+    background-color:black;
+}
+
+    /**topbar的container**/
+.topbar .container{
+    height: 50px;
+    background-color:black ;
+}
+
+    /**topbar里的container的p标签**/
+.topbar .container p{
+    height: 50px;
+    line-height: 50px;
+    color: #f1f1f1;
+}
+
+    /** p:first-child代表第一段文字**/
+.topbar .container p:first-child{
+     text-indent: 210px;
+   
+}
+
+.topbar .container p:first-child a{
+    color: #fff;
+    text-decoration: none;
+}
+
+    /**p标签的第二个**/
+.topbar .container p:nth-child(2){
+    margin-right: 10px;
+}
+
+    /**第二个p标签的第二个超衔接**/
+.topbar .container p:nth-child(2) a:not(.login){
+    color: #ff6700;
+}
+
+/**第二个p标签的第二个超衔接的登陆样式**/
+.topbar .container p:nth-child(2) .login{
+    color: #fff;
+}
+
+
+
+
+    /**2.导航**/
+.nav{
+    height: 80px;
+    background-color: #fff;
+}
+
+.nav .search-shopcart-order{
+    margin-top: 5px;
+    height: 35px;
+    background-color: white;
+}
+
+.nav .search-shopcart-order .search-input{
+    width: 440px;
+    height: 35px;
+    background-color: #ff6700;
+    margin-right: 38px;
+    position: relative;
+}
+
+.nav .search-shopcart-order .search-input .search{
+    width: 390px;
+    height: 31px;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+    color: #333;
+    outline: none;
+}
+
+.nav .search-shopcart-order .search-input span{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../images/bgicon.png');
+    background-repeat: no-repeat;
+}
+
+.nav .search-shopcart-order .shopcart-order{
+    width: 210px;
+    height: 35px;
+    text-indent: 10px;
+    color: #333;
+    outline: none;
+    font-size: 0%;
+}
+
+.nav .search-shopcart-order .shopcart-order button{
+    width: 100px;
+    height: 35px;
+    background-color: #ebebee;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+}
+
+.nav .search-shopcart-order .shopcart-order button:nth-child(1){
+    background-color: #ff6700;
+    color: #fff;
+    background-image: url('../images/bgicon.png');
+    background-position: -6px -44px;
+    background-repeat: no-repeat;
+}
+
+.nav .category-menu{
+    margin-top: 15px;
+    height: 30px;
+    background-color: white;
+}
+
+.nav .category-menu .left-logo {
+    width: 199px;
+    height: 115px;
+    background-image:url('../images/logo.jpg');
+    position: absolute;
+    top: 21px;
+}
+
+.nav .category-menu ul li {
+    float: left;
+    width: 90px;
+    height: 30px;
+    line-height: 41px;
+    font-size: 15px;
+}
+
+
+
+/**3.分类导航和banner**/
+.menu{
+    height: 400px;
+}
+.menu .sideMenu{
+    width: 200px;
+    height: 430px;
+}
+
+.menu .sideMenu ul{
+    height: 430px;
+    width: 200px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.menu .sideMenu ul li{
+    height: 31px;
+    line-height: 30px;
+    width: 200px;
+    text-indent: 20px;
+}
+
+.menu .sideMenu ul li a{
+    color: #353535;
+    text-decoration: none;
+}
+
+.menu .sideMenu ul li:hover{
+    background-color: #fff;
+}
+
+.menu .sideMenu ul li:hover a{
+    color: #ff6700;
+}
+
+.menu .sideMenu ul li .title{
+    width: 198px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu .sideMenu ul li:hover .title{
+    background-color: #fff;
+    position: absolute;
+    z-index: 99;
+}
+
+.menu .sideMenu ul li:hover .subMenu{
+    display: block;
+}
+.menu .sideMenu ul li .subMenu{
+    position: absolute;
+    left: 198px;
+    top: 0;
+    border: 2px solid #ff6700;
+    width: 500px;
+    height: 426px;
+    display: none;
+}
+
+
+.menu .banner{
+    width: 1000px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+    /**4.今日推荐**/
+.recommend{
+    height: 544px;
+}
+.recommend .title{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 41px;
+    text-indent: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ff6700;
+    border-bottom: 6px solid #ff6700;
+}
+
+.recommend .recommend-content{
+    width: 1190px;
+    height: 498px;
+    margin: 0% auto;
+}
+
+.recommend .recommend-content ul{
+    width: 1190px;
+    height: 498px;
+    margin: 0% auto;
+}
+
+.recommend .recommend-content ul li{
+    width: 196px;
+    height: 247px;
+    float: left;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.recommend .recommend-content ul li{
+    text-align: center;
+}
+
+.recommend .recommend-content ul li p{
+    text-indent: 10px;
+    text-align: left;
+}
+
+.recommend .recommend-content ul li p .limit-1{
+    background-color: #fff;
+    text-align: left;
+    text-indent: 0%;
+}
+
+.recommend .recommend-content ul li .text{
+    color: #ff6700;
+}
+
+.recommend .recommend-content ul li .price{
+    color: red;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/**5.电子书**/
+.ebooks {
+    height: 496px;
+    margin-top: 34px;
+}
+/**盒子左侧及其所有内容**/
+.ebooks .left-box{
+    background-color: #fff;
+    width: 906px;
+    height: 496px;
+}
+/**顶部**/
+.ebooks .left-box .top{
+    width: 906px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 6px solid #ff6700;
+    background-color: #fff;
+}
+/**标题**/
+.ebooks .left-box .top .title{
+    text-indent: 24px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ff6700;
+}
+/**右侧标题导航**/
+.ebooks .left-box .top ul li{
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+
+.ebooks .left-box .top ul li a{
+    color: #353535;
+    text-decoration: none;
+}
+
+.ebooks .left-box .top ul li:hover{
+    background-color: #ff6700;    
+}
+
+.ebooks .left-box .top ul li:hover a{
+    color: #ff6700;    
+}
+.ebooks .left-box .top ul li:hover .active{
+    background-color: #ff6700;
+    position: absolute;
+}
+/**右侧激活类**/
+.ebooks .left-box .top ul li.active{
+  background-color: #fff;
+}
+
+/**下部分内容**/
+.ebooks .left-box .content{
+    height: 450px;
+    width: 906px;
+    background-color: #353535;
+}
+
+/**左侧广告**/
+.ebooks .left-box .content .ads{
+    height: 450px;
+    width: 236px;
+    background-color: #353535;
+}
+.ebooks .left-box .content .ads .top-img{
+    width: 236px;
+    height: 290px;
+    background-color: gray;
+}
+
+.ebooks .left-box .content .ads .bottom-text{
+    height: 160px;
+    width: 236px;
+    background-color: #fff;
+}
+
+.ebooks .left-box .content .ads .bottom-text ul{
+    width: 234px;
+    margin-left:1px;
+    height: 160px;
+}
+
+.ebooks .left-box .content .ads .bottom-text ul li{
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
+/**右侧图书列表**/
+.ebooks .left-box .content .ebooks-list{
+    height: 450px;
+    width: 670px;
+    background-color:gray;
+}
+
+.ebooks .left-box .content .ebooks-list > ul > li{
+    float: left;
+    height: 223px;
+    width: 165px;
+    background-color: #fff;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.ebooks .left-box .content .ebooks-list > ul > li > p{
+    text-align-last: left;
+    text-indent: 10px;
+}
+
+.ebooks .left-box .content .ebooks-list > ul > li > img{
+    margin: 15px auto;
+}
+
+.ebooks .left-box .content .ebooks-list > ul > li > p:first-child{
+    font-size: 18px;
+}
+
+.ebooks .left-box .content .ebooks-list > ul > li > p:not(:first-child){
+    color: red;
+}
+
+.ebooks .left-box .content .ebooks-list > ul > li > p:last-child{
+    font-size: 18px;
+}
+
+
+/**一个特别的li下来的一个轮播容器**/
+.ebooks .left-box .content .ebooks-list ul li:first-child{
+    width: 332px;
+    height: 223px;
+}
+
+.ebooks .left-box .content .ebooks-list ul li:first-child .pptbox{
+    width: 332px;
+    height: 223px;
+}
+
+/**盒子右侧及其所有内容**/
+.ebooks .right-box{
+    width: 286px;
+    height: 456px;
+    margin-top:40px;
+    border: 2px solid #ccc;
+
+    /**变为变异盒子**/
+    box-sizing: border-box;
+}
+
+.ebooks .right-box .title{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 200;
+    color:#ccc;
+}
+
+.ebooks .right-box ul li{
+    line-height: 42px;
+    font-size: 20px;
+    text-indent: 5px;
+
+}
+.ebooks .right-box ul li .desc img{
+    margin-right:9px;
+}
+/**新书列表交互样式**/
+.ebooks .right-box ul li .desc{
+    font-size: 16px;
+    line-height: 20px;
+    height: 150px;
+
+    /**隐藏 详情默认所有除第一个**/
+    display: none;
+}
+
+
+.ebooks .right-box ul li:first-child .ebooks-title{
+    /**默认所有标题都显示 只要第一个隐藏**/
+    display: none;
+}
+
+.ebooks .right-box ul li:first-child .desc{
+    /**默认第一个**/
+    display: block;
+}
+
+
+
+
+    /**6.服装**/
+.clothes{
+    height: 60px;
+}
+
+
+
+    /**7.户外运动**/
+.outdoorsports{
+    height: 60px;
+    background-color: salmon;
+}
+
+
+
+    /**8.童装**/
+.childclothes{
+    height: 60px;
+    background-color: salmon;
+}
+
+
+
+    /**9.家居日用**/
+.daily{
+    height: 60px;
+    background-color: skyblue;
+}
+
+
+
+    /**10.推广商品**/
+.promotion{
+    height: 60px;
+    background-color: salmon;
+}
+    /**11.尾部**/
+.end{
+    height: 60px;
+    background-color: skyblue;
+}
